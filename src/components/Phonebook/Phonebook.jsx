@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { nanoid } from 'nanoid';
-
 import s from './Phonebook.module.css';
 
 const INITIAL_STATE = {
