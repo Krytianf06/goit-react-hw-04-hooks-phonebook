@@ -19,7 +19,7 @@ const Phonebook = ({ addContact }) => {
 
   const handleInputChange = event => {
     switch (event.target.name) {
-      case 'name ':
+      case 'name':
         setName(event.target.value);
         break;
 
