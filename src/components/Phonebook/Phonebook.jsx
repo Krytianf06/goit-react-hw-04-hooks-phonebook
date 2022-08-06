@@ -23,7 +23,7 @@ const Phonebook = ({ addContact }) => {
         setName(event.target.value);
         break;
 
-      case 'number':
+      case 'number': //pomyłka
         setNumber(event.target.value);
         break;
 
